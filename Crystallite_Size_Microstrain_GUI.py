@@ -21,7 +21,7 @@ def calculate_values():
         fwhm_degrees = hwhm_values * 2
         fwhm_radians = np.deg2rad(fwhm_degrees)
 
-        CS = (k * lambda1) / ((fwhm_radians) * (2 * theta_radians))
+        CS = (k * lambda1) / ((fwhm_radians) * (np.cos(theta_radians)))
 
         microstrain = fwhm_radians / (4 * np.tan(theta_radians))
         eta = microstrain
