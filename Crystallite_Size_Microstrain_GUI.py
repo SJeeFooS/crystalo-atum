@@ -2,7 +2,7 @@ import numpy as np
 import tkinter as tk
 from tkinter import messagebox
 
-lambda1 = 1.5406  # Wavelength
+lambda1 = 0.15406  # Wavelength
 k = 0.94  # Constant
 
 def calculate_values():
@@ -34,8 +34,8 @@ def calculate_values():
         result_text += f"HWHM values: {hwhm_values}\n"
         result_text += f"FWHM values (degrees): {fwhm_degrees}\n"
         result_text += f"FWHM values (radians): {fwhm_radians}\n"
-        result_text += f"Crystallite Size (CS) for each peak: {CS}\n"
-        result_text += f"Average Crystallite Size (CS_avg): {CS_avg}\n"
+        result_text += f"Crystallite Size (CS in nm) for each peak: {CS}\n"
+        result_text += f"Average Crystallite Size (CS_avg in nm): {CS_avg}\n"
         result_text += f"Eta values: {eta}\n"
         result_text += f"Average Microstrain (Eta_avg): {eta_avg}\n"
 
