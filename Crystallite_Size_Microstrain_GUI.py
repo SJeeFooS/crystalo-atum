@@ -30,7 +30,7 @@ def calculate_values():
         eta_avg = np.mean(eta)
 
         result_text = f"Input 2Theta values (degrees): {theta_degrees}\n"
-        result_text += f"2Theta values (radians): {theta_radians}\n"
+        result_text += f"Theta values (radians): {theta_radians}\n"
         result_text += f"HWHM values: {hwhm_values}\n"
         result_text += f"FWHM values (degrees): {fwhm_degrees}\n"
         result_text += f"FWHM values (radians): {fwhm_radians}\n"
